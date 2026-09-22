@@ -1,0 +1,32 @@
+{"event_id": "event-001", "event_type": "commerce_event", "description": "An order was placed, payment authorized, and inventory reserved."}
+{"event_id": "event-002", "event_type": "commerce_event", "description": "A shipment was delivered after fulfillment was confirmed."}
+{"event_id": "event-003", "event_type": "commerce_event", "description": "An order was cancelled before payment authorization."}
+{"event_id": "event-004", "event_type": "commerce_event", "description": "Payment was captured after authorization and before fulfillment."}
+{"event_id": "event-005", "event_type": "commerce_event", "description": "Inventory was reserved for an active order."}
+{"event_id": "event-006", "event_type": "commerce_event", "description": "A refund was issued for a previously captured payment."}
+{"event_id": "event-007", "event_type": "commerce_event", "description": "A customer updated the address before the order shipped."}
+{"event_id": "event-008", "event_type": "commerce_event", "description": "A tracking number was recorded after the carrier accepted the parcel."}
+{"event_id": "event-009", "event_type": "commerce_event", "description": "The payment gateway timed out before confirming a charge."}
+{"event_id": "event-010", "event_type": "commerce_event", "description": "The warehouse API returned HTTP 503 during inventory reservation."}
+{"event_id": "event-011", "event_type": "commerce_event", "description": "The card processor returned a temporary HTTP 429 response."}
+{"event_id": "event-012", "event_type": "commerce_event", "description": "The shipping provider timed out before returning a tracking number."}
+{"event_id": "event-013", "event_type": "commerce_event", "description": "The database connection dropped before commit was acknowledged."}
+{"event_id": "event-014", "event_type": "commerce_event", "description": "A downstream service is temporarily unavailable during order lookup."}
+{"event_id": "event-015", "event_type": "commerce_event", "description": "A network reset interrupted a product catalog request."}
+{"event_id": "event-016", "event_type": "commerce_event", "description": "The carrier API reported a temporary service outage."}
+{"event_id": "event-017", "event_type": "commerce_event", "description": "A high-value refund has conflicting delivery evidence."}
+{"event_id": "event-018", "event_type": "commerce_event", "description": "A customer alleges a duplicate charge, but payment records disagree."}
+{"event_id": "event-019", "event_type": "commerce_event", "description": "The shipping address changed after dispatch and fraud status is unclear."}
+{"event_id": "event-020", "event_type": "commerce_event", "description": "A manual override was requested for a blocked transaction without explanation."}
+{"event_id": "event-021", "event_type": "commerce_event", "description": "A customer disputes a delivered order with conflicting proof of receipt."}
+{"event_id": "event-022", "event_type": "commerce_event", "description": "Two accounts claim ownership of the same purchase."}
+{"event_id": "event-023", "event_type": "commerce_event", "description": "A refund request cites an exception that needs a manager decision."}
+{"event_id": "event-024", "event_type": "commerce_event", "description": "A high-value order has inconsistent identity checks requiring investigation."}
+{"event_id": "event-025", "event_type": "commerce_event", "description": "A shipment was created before its order was placed."}
+{"event_id": "event-026", "event_type": "commerce_event", "description": "A refund amount exceeds the original payment amount."}
+{"event_id": "event-027", "event_type": "commerce_event", "description": "An order was marked delivered without an order creation record."}
+{"event_id": "event-028", "event_type": "commerce_event", "description": "A completed sale reports a negative item quantity."}
+{"event_id": "event-029", "event_type": "commerce_event", "description": "An analytics event unexpectedly contains a full payment card number."}
+{"event_id": "event-030", "event_type": "commerce_event", "description": "A payment capture exists without any authorization or payment intent."}
+{"event_id": "event-031", "event_type": "commerce_event", "description": "The same order is marked cancelled before creation."}
+{"event_id": "event-032", "event_type": "commerce_event", "description": "A shipment event refers to an impossible negative order total."}

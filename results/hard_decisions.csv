@@ -1,0 +1,17 @@
+event_id,decision,routed_to,chosen_probability,latency_ms,input_tokens,output_tokens
+event-033,QUARANTINE,events.human_review,0.43,475.68,417,56
+event-034,HUMAN_REVIEW,events.human_review,0.99,375.89,425,57
+event-035,RETRY,events.retry,0.76,463.57,419,54
+event-036,QUARANTINE,events.quarantine,0.97,518.91,423,56
+event-037,RETRY,events.retry,1.0,391.09,420,54
+event-038,QUARANTINE,events.quarantine,0.96,378.2,420,56
+event-039,HUMAN_REVIEW,events.human_review,1.0,362.48,419,57
+event-040,NORMAL,events.normal,1.0,370.89,418,53
+event-041,RETRY,events.retry,1.0,375.0,422,54
+event-042,QUARANTINE,events.quarantine,0.98,450.74,423,56
+event-043,HUMAN_REVIEW,events.human_review,0.99,335.32,420,57
+event-044,NORMAL,events.normal,1.0,396.38,418,53
+event-045,QUARANTINE,events.quarantine,0.99,389.82,422,56
+event-046,HUMAN_REVIEW,events.human_review,0.74,377.47,419,57
+event-047,HUMAN_REVIEW,events.human_review,1.0,553.43,420,57
+event-048,RETRY,events.retry,0.92,394.22,423,54

@@ -1,0 +1,16 @@
+{"event_id": "event-033", "event_type": "commerce_event", "description": "The carrier API timed out, but the order was already delivered yesterday."}
+{"event_id": "event-034", "event_type": "commerce_event", "description": "A customer asks for a refund after delivery; the refund amount matches the original charge and policy eligibility is unclear."}
+{"event_id": "event-035", "event_type": "commerce_event", "description": "The payment gateway returned HTTP 503 before confirming whether an authorization succeeded."}
+{"event_id": "event-036", "event_type": "commerce_event", "description": "A refund was recorded before any payment existed, although the refund service returned HTTP 200."}
+{"event_id": "event-037", "event_type": "commerce_event", "description": "The warehouse API timed out while reserving inventory; the order has not shipped."}
+{"event_id": "event-038", "event_type": "commerce_event", "description": "A shipment is marked delivered before the order was created; the carrier API is healthy."}
+{"event_id": "event-039", "event_type": "commerce_event", "description": "A high-value order passed payment authorization, but identity checks disagree and require investigation."}
+{"event_id": "event-040", "event_type": "commerce_event", "description": "An order was cancelled before shipment, and the payment authorization was voided."}
+{"event_id": "event-041", "event_type": "commerce_event", "description": "The retry count is high because the carrier API is temporarily unavailable; no shipment status was changed."}
+{"event_id": "event-042", "event_type": "commerce_event", "description": "The retry count is high, but this event says the item quantity on a completed sale is negative."}
+{"event_id": "event-043", "event_type": "commerce_event", "description": "A customer reports a duplicate charge, but the two payment records may represent separate purchases."}
+{"event_id": "event-044", "event_type": "commerce_event", "description": "A refund was issued after a documented return and matches the amount originally captured."}
+{"event_id": "event-045", "event_type": "commerce_event", "description": "The analytics event has a valid schema and also contains a full payment card number in its description."}
+{"event_id": "event-046", "event_type": "commerce_event", "description": "The database connection reset before the order write committed; whether it persisted is unknown."}
+{"event_id": "event-047", "event_type": "commerce_event", "description": "The delivery proof and customer claim conflict; the order and payment records are otherwise valid."}
+{"event_id": "event-048", "event_type": "commerce_event", "description": "The shipping provider briefly returned HTTP 429 after a tracking number had already been stored successfully."}
